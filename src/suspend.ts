@@ -24,5 +24,3 @@ export let getSetting = () => suspend(wx.getSetting)({})
 
 export let request = suspend(wx.request)
 export let authorize = suspend(wx.authorize)
-
-
